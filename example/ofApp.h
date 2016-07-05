@@ -25,7 +25,6 @@ class ofApp : public ofBaseApp{
         void captureFrame();
     
         vector <ofTexture *> txs; // for previewing
-        vector <ofxGifFrame *> pxs;
         
         int frameW, frameH;
         int nFrames;
